@@ -64,6 +64,15 @@ FROM employees
 GROUP BY last_name
 ORDER BY "last_name_count" DESC;
 
+--Bonus code - set up to run avg salary by title in pandas
+SELECT t.title, s.salary
+FROM employees AS e
+JOIN titles AS t ON
+e.emp_title=t.title_id
+JOIN salaries AS s ON
+e.emp_no=s.emp_no
+GROUP BY t.title, s.salary
+
 --Bonus (hahaha)!
 SELECT *
 FROM employees
