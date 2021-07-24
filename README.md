@@ -1,4 +1,4 @@
-# sql-challenge
+# SQL HR Database
 
 This repository houses a sample research project on employees from the 1980s to the 1990s from an unnamed business. The goal was to design tables to hold the data and import the data into a SQL database so that quesitons can be answered about the data. 
 
