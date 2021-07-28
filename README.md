@@ -2,7 +2,11 @@
 
 This repository houses a sample research project on employees from the 1980s to the 1990s from an unnamed business. The goal was to design tables to hold the data and import the data into a SQL database so that quesitons can be answered about the data. 
 
-The CSV files were inspected and an ERD created. Using the ERD, a table schema was created and run. Once the tables were created and CSV files imported to the new tables, the following tasks were completed: 
+The CSV files were inspected and an ERD created. Using the ERD, a table schema was created and run. 
+
+![image](https://user-images.githubusercontent.com/71466063/127382489-c9ddd7f8-7b93-43e2-b8a0-d24c5c489a5e.png)
+
+Once the tables were created and CSV files imported to the new tables, the following tasks were completed: 
 
 1. List the following details of each employee: employee number, last name, first name, sex, and salary.
 
